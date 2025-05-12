@@ -6,7 +6,7 @@ termux-setup-storage
 
 echo -e "\nrun pkg update && pkg upgrade\n"
 
-pkg update -y && pkg upgrade 
+pkg update -y && pkg upgrade -y
 
 echo -e "\ninstall neovim\n"
 
